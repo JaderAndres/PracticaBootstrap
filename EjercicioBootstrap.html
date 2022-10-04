@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Author="Jader" description="Ejercicio Propuesto 2 - HTML - CSS Siesa ">
+    <title>Ejercicio Propuesto 2 - HTML - CSS - Javascript</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/jpg" href="img/icono.png"/>
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+
+</head>
+<body onload="Bienvenida()">
+    <div class="container">
+        
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="pagina2.html">Pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="pagina3.html">Pagina 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="pagina4.html">Pagina 4</a>
+            </li>
+          </ul>
+          
+
+        <h1 class="text-center">Automatización de pruebas</h1>
+
+        <figure class="text-center"><img src="img/Concepto.jpg" alt="imagen" width="50%" height="50%"/></figure>
+        
+        <div id="bienve">
+            <h1 id="bienvenida"></h1>
+        </div>
+        <br/>
+        <div id="dvque" >
+            <h4>Que es una automatización de pruebas?</h4>
+            <p class="fst-italic fw-semibold" id="inicio">A diferencia de las pruebas manuales de software, la automatización de pruebas es el <u> uso de herramientas programáticas para poder testear el rendimiento y el correcto funcionamiento de un software</u>. Usualmente, este tipo de pruebas se realiza cuando hay que comprobar la operatividad de procesos repetitivos y que precisan de una importante cantidad de datos para ser llevados a cabo.</p>	
+        </div>
+        <br/>
+        <div id="dvtipos">
+            <h4>Que tipos de automatización hay?</h4>
+            <table class="lista">					
+                <tr>					
+                    <td>
+                        <ul>
+                            <li>Examen de la unidad</li>
+                            <li>Validación de compatibilidad</li>
+                            <li>Prueba de humo</li>
+                            <li>Validaciones de integración</li>
+                            <li>Prueba de interfaz</li>
+                            <li>Pruebas de regresión</li>
+                            <li>Validaciones de rendimiento</li>
+                            <li>Pruebas de seguridad</li>
+                            <li>Prueba del sistema</li>
+                            <li>Validaciones de usabilidad</li>
+                        </ul>
+                    </td>							
+                </tr>
+            </table>
+            <br/>
+            <div>
+            <figure><img src="img/Testing.jpg" alt="imagen" width="30%" height="30%"/></figure>
+            </div>
+            <br/>
+            <div class="text-info" id="dvExpli">
+				<p>En las pruebas de software, la automatización de pruebas consiste en el <b>uso de software especial</b> (casi siempre separado del software que se prueba) para controlar la ejecución de pruebas y la comparación entre los resultados obtenidos y los resultados esperados.</p>
+            </div>
+            <br/>
+            <div>
+                <h4>Herramientas</h4>
+                
+            </div>
+            <br/>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Gatling
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Gatling</strong>   Es un software muy completo lleno de funcionalidades para la automatización de pruebas.
+                      <br>
+                      <figure><img src="img/Gatling-logo55.jpg" alt="" width="30%" height="30%"></figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Selenium
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Selenium</strong> es el software mas utilizado para la realización de la automatización de pruebas.
+                      <figure><img src="img/selenium-logo11.png" alt="" width="30%" height="30%"></figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Katalon
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Katalon.</strong> Es in nuevo competidor con funcionalidades que otros software no tienen.
+                      <figure><img src="img/katalon_logo11.jpeg" alt="" width="30%" height="30%"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            <footer>
+                <p id="info"><strong><i>Jader Andrés Gaviria Betancur - Desarrollador Staff - Semillo Siesa</i></strong></p>
+                <h4>Más información</h4>
+                <p><small><a href="https://www.tecnova.cl/2021/07/12/automatizacion-pruebas-software-y-como-puede-aplicarse/" target="_blank">https://www.tecnova.cl/2021/07/12/automatizacion-pruebas-software-y-como-puede-aplicarse/</a></small></p>
+                <p><small><a href="https://es.wikipedia.org/wiki/Automatizaci%C3%B3n_de_pruebas" target="_blank">https://es.wikipedia.org/wiki/Automatizaci%C3%B3n_de_pruebas</a></small></p>
+                <p><small><a href="https://geekflare.com/es/software-testing-tools/" target="_blank">https://geekflare.com/es/software-testing-tools/</a> </small></p>
+            </footer>
+        </div>
+    
+
+
+
+
+
+    </div>
+   
+</body>
+</html>
